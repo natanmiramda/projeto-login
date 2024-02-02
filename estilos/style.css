@@ -36,11 +36,15 @@ section#login{
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.493);
 
+    transition: width .3s, heigth .3s;
+    transition-timing-function: ease;
+
+
 }
 
 section#login > div#imagem{
     display: block;
-    background: #5f2c82 url(../imagens/gato\ sorrindo.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/tela.jpg) no-repeat;
     background-size: cover;
     height: 200px;
 }
